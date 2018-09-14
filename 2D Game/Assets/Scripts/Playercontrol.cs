@@ -14,6 +14,7 @@ public class Playercontrol : MonoBehaviour {
     public Transform groundCheck;
     public float groundCheckRadius;
     public LayerMask whatIsGround;
+    //public LayerMask deathLava;
     private bool grounded;
 
 	// Use this for initialization
@@ -22,15 +23,13 @@ public class Playercontrol : MonoBehaviour {
 	}
 
      void FixedUpdate() {
-        grounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, whatIsGround);
+        grounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, whatIsGround /*deathLava*/);
 	}
 
 	// Update is called once per frame
 	void Update () {
-
-
-		//this code makes the charcter jump
-        if(Input.GetKeyDown (KeyCode.W)&& grounded){
+     //this code makes the charcter jump
+        if(Input.GetKeyDown (KeyCode.Space)&& grounded){
             Jump();
         }
         //coad maes tehc haracter move from side to side
@@ -49,3 +48,7 @@ public class Playercontrol : MonoBehaviour {
     }
 }
 
+/* if (groundCheck.position == deathLava)
+    {
+    Application.Quit()
+    }*/
