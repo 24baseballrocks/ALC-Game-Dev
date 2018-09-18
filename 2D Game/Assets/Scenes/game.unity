@@ -908,7 +908,7 @@ GameObject:
   m_Layer: 0
   m_Name: GroundCheck (2)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -919,7 +919,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 507207788}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.007, y: 0.064, z: 0}
+  m_LocalPosition: {x: 0.003, y: 0.059, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 897569190}
@@ -1340,7 +1340,7 @@ GameObject:
   m_Layer: 0
   m_Name: GroundCheck (3)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1351,7 +1351,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 861092246}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.058, y: 0.011, z: 0}
+  m_LocalPosition: {x: -0.054, y: 0.0051, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 897569190}
@@ -1477,8 +1477,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 897569186}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -36.8, y: -1.05, z: 0}
-  m_LocalScale: {x: 1.6008463, y: 1.8138868, z: 1.0305922}
+  m_LocalPosition: {x: -35.7162, y: -0.4861, z: 0}
+  m_LocalScale: {x: 3.600879, y: 3.8757162, z: 1.5850999}
   m_Children:
   - {fileID: 319290985}
   - {fileID: 1817203975}
@@ -1499,8 +1499,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bceccf201364e4290b6a8f464d207234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MoveSpeed: 4
-  JumpHeight: 7
+  MoveSpeed: 5
+  JumpHeight: 4
   groundCheck: {fileID: 1817203975}
   groundCheckRadius: 0.3
   whatIsGround:
@@ -1517,8 +1517,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bceccf201364e4290b6a8f464d207234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MoveSpeed: 4
-  JumpHeight: 7
+  MoveSpeed: 5
+  JumpHeight: 4
   groundCheck: {fileID: 2106034213}
   groundCheckRadius: 0.3
   whatIsGround:
@@ -1535,8 +1535,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bceccf201364e4290b6a8f464d207234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MoveSpeed: 4
-  JumpHeight: 7
+  MoveSpeed: 5
+  JumpHeight: 4
   groundCheck: {fileID: 861092247}
   groundCheckRadius: 0.3
   whatIsGround:
@@ -1553,8 +1553,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bceccf201364e4290b6a8f464d207234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MoveSpeed: 4
-  JumpHeight: 7
+  MoveSpeed: 5
+  JumpHeight: 4
   groundCheck: {fileID: 507207789}
   groundCheckRadius: 0.3
   whatIsGround:
@@ -1773,7 +1773,7 @@ GameObject:
   m_Layer: 0
   m_Name: GroundCheck
   m_TagString: Untagged
-  m_Icon: {fileID: 4162164826716764455, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 2488908585195742037, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1784,7 +1784,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1817203974}
   m_LocalRotation: {x: -0.00918502, y: -0.0056630303, z: -0.014987571, w: 0.9998295}
-  m_LocalPosition: {x: -0.004, y: -0.001, z: 0.533}
+  m_LocalPosition: {x: -0.003, y: -0.054, z: 0.539}
   m_LocalScale: {x: 1.2621, y: 1.2621, z: 1.2621}
   m_Children: []
   m_Father: {fileID: 897569190}
@@ -1801,7 +1801,7 @@ GameObject:
   m_Layer: 0
   m_Name: GroundCheck (1)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1812,7 +1812,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2106034212}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.065, y: 0.006, z: 0}
+  m_LocalPosition: {x: 0.055, y: -0.0022, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 897569190}
