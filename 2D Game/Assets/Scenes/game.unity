@@ -2148,7 +2148,7 @@ GameObject:
   m_Layer: 0
   m_Name: GroundCheck (3)
   m_TagString: Untagged
-  m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -2386,7 +2386,7 @@ MonoBehaviour:
   DeathParticle: {fileID: 2054463811}
   RespawnParticle: {fileID: 838549164}
   RespawnDelay: 5
-  PointPenaltyOnDeath: 200
+  PointPenaltyOnDeath: 10
 --- !u!1001 &1021129775
 Prefab:
   m_ObjectHideFlags: 0
@@ -3160,7 +3160,7 @@ GameObject:
   m_Layer: 0
   m_Name: CheckPoint 01
   m_TagString: Untagged
-  m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -3260,7 +3260,7 @@ GameObject:
   m_Layer: 0
   m_Name: GroundCheck (1)
   m_TagString: Untagged
-  m_Icon: {fileID: 2488908585195742037, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
