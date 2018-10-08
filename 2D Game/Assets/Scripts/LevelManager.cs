@@ -6,7 +6,7 @@ public class LevelManager : MonoBehaviour {
 
     public GameObject currentCheckPoint;
 
-    private Rigidbody2D pc;
+    public Rigidbody2D pc;
 
     //particles
 
@@ -15,7 +15,7 @@ public class LevelManager : MonoBehaviour {
 
     //Respawn Delay
 
-    public float RespawnDelay;
+    public float RespawnDelay;   
 
     //point Penalty on Death
 
@@ -25,7 +25,7 @@ public class LevelManager : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        pc = FindObjectOfType<Rigidbody2D> ();
+        //pc = FindObjectOfType<Rigidbody2D> ();
 		
 	}
 
