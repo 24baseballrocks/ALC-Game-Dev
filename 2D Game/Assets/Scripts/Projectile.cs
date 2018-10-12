@@ -5,19 +5,17 @@ using UnityEngine;
 public class Projectile : MonoBehaviour {
 
     public float Speed;
-
-    public Rigidbody2D Player;
-
+    public Rigidbody2D pc;
     public GameObject EnemyDeath;
-
     public GameObject ProjectileParticle;
-
     public int PointsForKill;
 
 	// Use this for initialization
 	void Start () {
         //Player = FindObjectOfType<Rigidbody2D>();
 
+        if (pc.transform.localScale.x < 0)
+            Speed = -Speed;
 
 	}
 	
@@ -27,18 +25,22 @@ public class Projectile : MonoBehaviour {
         
         GetComponent<Rigidbody2D>().velocity = new Vector2(Speed, GetComponent<Rigidbody2D>().velocity.y);
 
-        if (Player.transform.localScale.x < 0)
-            Speed = -Speed;
+       
 	}
 
-	private void OnTriggerEnter2D(Collider2D other)
+	void OnTriggerEnter2D(Collider2D other)
 	{
-        if(other.tag == "Enemy"){
+        if (other.tag == "Enemy")
+        {
             Instantiate(EnemyDeath, other.transform.position, other.transform.rotation);
             Destroy(other.gameObject);
             ScoreManager.AddPoints(PointsForKill);
-
         }
+        if (other.tag == "Floor")
+        {
+            Destroy(gameObject);
+        }
+
 
         Instantiate(ProjectileParticle, transform.position, transform.rotation);
         Destroy(gameObject);
