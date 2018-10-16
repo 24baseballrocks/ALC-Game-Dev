@@ -302,7 +302,7 @@ RectTransform:
   - {fileID: 384583904}
   - {fileID: 1606065679}
   m_Father: {fileID: 0}
-  m_RootOrder: 32
+  m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -511,7 +511,7 @@ Transform:
   m_LocalScale: {x: 54.49075, y: 4.07634, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 29
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.749}
 --- !u!114 &120729762
 MonoBehaviour:
@@ -534,8 +534,8 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 1
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
@@ -649,7 +649,7 @@ Transform:
   m_LocalScale: {x: 54.887604, y: 3.9968488, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 30
+  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.749}
 --- !u!1 &162017594
 GameObject:
@@ -998,9 +998,9 @@ GameObject:
   - component: {fileID: 202846440}
   - component: {fileID: 202846439}
   - component: {fileID: 202846442}
-  - component: {fileID: 202846443}
-  - component: {fileID: 202846437}
   - component: {fileID: 202846438}
+  - component: {fileID: 202846437}
+  - component: {fileID: 202846443}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -1150,7 +1150,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.0016517639, y: 0.0024777055}
   m_SpriteTilingProperty:
     border: {x: 0.049999997, y: 0.049999997, z: 0.049999997, w: 0.049999997}
     pivot: {x: 0.5, y: 0.5}
@@ -1161,7 +1161,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.3, y: 0.2}
+  m_Size: {x: 0.14472675, y: 0.13888177}
   m_EdgeRadius: 0
 --- !u!114 &202846443
 MonoBehaviour:
@@ -1753,10 +1753,10 @@ ParticleSystem:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 441214861}
   serializedVersion: 5
-  lengthInSec: 0.4
+  lengthInSec: 1
   simulationSpeed: 1
   stopAction: 0
-  looping: 1
+  looping: 0
   prewarm: 0
   playOnAwake: 1
   useUnscaledTime: 0
@@ -1825,7 +1825,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.01
+      scalar: 0.1
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -1878,7 +1878,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.01
+      scalar: 0.1
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -1994,7 +1994,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.4
+      scalar: 3
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -6285,12 +6285,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 441214861}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -11.210092, y: 0.7989032, z: -1.146232}
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -11.210091, y: 0.798903, z: -1.146232}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 36
+  m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!1 &474410107
 GameObject:
@@ -6557,7 +6557,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4885088853823226, guid: 589dfdab0615a4dbdb67f27d32b37efb, type: 2}
       propertyPath: m_RootOrder
-      value: 31
+      value: 30
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 589dfdab0615a4dbdb67f27d32b37efb, type: 2}
@@ -6574,7 +6574,7 @@ GameObject:
   m_Layer: 0
   m_Name: FirePoint
   m_TagString: Untagged
-  m_Icon: {fileID: 3306451490063965843, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -11609,7 +11609,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 34
+  m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!50 &897569187
 Rigidbody2D:
@@ -11648,7 +11648,7 @@ MonoBehaviour:
   pc: {fileID: 897569187}
   DeathParticle: {fileID: 2054463811}
   RespawnParticle: {fileID: 838549164}
-  RespawnDelay: 5
+  RespawnDelay: 3
   PointPenaltyOnDeath: 10
 --- !u!1001 &1021129775
 Prefab:
@@ -11768,34 +11768,6 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2f7c85a9beb394e23b5ad25757cdd31a, type: 2}
   m_IsPrefabAsset: 0
---- !u!1 &1260036907
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1260036909}
-  m_Layer: 0
-  m_Name: GameManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1260036909
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1260036907}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -29.347996, y: -3.283257, z: 0.6275418}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 27
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1307062342
 Prefab:
   m_ObjectHideFlags: 0
@@ -12020,7 +11992,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4086269490799422, guid: dcae0efa881344669b085a3256d16f06, type: 2}
       propertyPath: m_RootOrder
-      value: 35
+      value: 34
       objectReference: {fileID: 0}
     - target: {fileID: 4086269490799422, guid: dcae0efa881344669b085a3256d16f06, type: 2}
       propertyPath: m_LocalScale.x
@@ -12135,7 +12107,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4827170482196916, guid: 3fccbbbf4b5cd43d39c9b096641e7924, type: 2}
       propertyPath: m_RootOrder
-      value: 33
+      value: 32
       objectReference: {fileID: 0}
     - target: {fileID: 114699964839781390, guid: 3fccbbbf4b5cd43d39c9b096641e7924,
         type: 2}
@@ -12151,7 +12123,7 @@ Prefab:
         type: 2}
       propertyPath: ProjectileParticle
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 441214861}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3fccbbbf4b5cd43d39c9b096641e7924, type: 2}
   m_IsPrefabAsset: 0
@@ -12666,7 +12638,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 28
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2054463811 stripped
 GameObject:
