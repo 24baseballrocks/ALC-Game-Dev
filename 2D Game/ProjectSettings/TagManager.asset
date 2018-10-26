@@ -43,3 +43,21 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: BackGround
+    uniqueID: 984324997
+    locked: 0
+  - name: Silhouette
+    uniqueID: 1295187109
+    locked: 0
+  - name: PC
+    uniqueID: 1024046059
+    locked: 0
+  - name: Enemy
+    uniqueID: 2101895381
+    locked: 0
+  - name: Platform
+    uniqueID: 2235256447
+    locked: 0
+  - name: Coin
+    uniqueID: 926214383
+    locked: 0
