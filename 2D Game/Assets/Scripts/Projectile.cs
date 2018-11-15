@@ -19,7 +19,7 @@ public class Projectile : MonoBehaviour {
 
          ProjectileParticle = Resources.Load("Prefabs/Respawn P") as GameObject;
 
-        if (pc.transform.localScale.x < 0)
+         if (pc.transform.localScale.x < 0)
             Speed = -Speed;
 
 
@@ -40,11 +40,11 @@ public class Projectile : MonoBehaviour {
             Destroy(other.gameObject);
             ScoreManager.AddPoints(PointsForKill);
         }
-         /*if (other.tag == "Floor")
-         {
-             Destroy(gameObject);
-         }*/
 
+        else if (other.tag == "Coin")
+        {
+            Destroy(gameObject);
+        }
         Destroy(gameObject);
     }
 
