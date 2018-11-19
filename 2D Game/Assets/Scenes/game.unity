@@ -506,7 +506,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0019065142, y: 0}
+  m_Offset: {x: -0.00024773553, y: -0.0008005798}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -517,7 +517,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.14092714, y: 0.1387352}
+  m_Size: {x: 0.121109314, y: 0.14994308}
   m_EdgeRadius: 0
 --- !u!212 &192975420
 SpriteRenderer:
@@ -1552,7 +1552,7 @@ GameObject:
   m_Layer: 0
   m_Name: FirePoint
   m_TagString: Untagged
-  m_Icon: {fileID: 7422848464349959988, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -6318,7 +6318,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 1
-  m_Mass: 0.27286118
+  m_Mass: 0.25343376
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -6685,8 +6685,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1128746050}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 24.584, y: -23.79, z: 0}
-  m_LocalScale: {x: 21.62434, y: -18.756615, z: 1}
+  m_LocalPosition: {x: 18.473, y: -24.554, z: 0}
+  m_LocalScale: {x: 23.311037, y: -28.30373, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 49
@@ -7330,11 +7330,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4827170482196916, guid: 3fccbbbf4b5cd43d39c9b096641e7924, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -53.31
+      value: -53.86
       objectReference: {fileID: 0}
     - target: {fileID: 4827170482196916, guid: 3fccbbbf4b5cd43d39c9b096641e7924, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -28.92
+      value: -35.58
       objectReference: {fileID: 0}
     - target: {fileID: 4827170482196916, guid: 3fccbbbf4b5cd43d39c9b096641e7924, type: 2}
       propertyPath: m_LocalPosition.z
