@@ -41,6 +41,11 @@ public class Projectile : MonoBehaviour {
             ScoreManager.AddPoints(PointsForKill);
         }
 
+        else if (other.tag == "Coin")
+        {
+            Destroy(gameObject);
+        }
+        Destroy(gameObject);
     }
 
         void OnCollisionEnter2D(Collision2D other)
