@@ -41,10 +41,7 @@ public class Projectile : MonoBehaviour {
             ScoreManager.AddPoints(PointsForKill);
         }
 
-        else if (other.tag == "Coin")
-        {
-            Destroy(gameObject);
-        }
+
         Destroy(gameObject);
     }
 
