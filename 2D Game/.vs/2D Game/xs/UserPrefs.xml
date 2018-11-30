@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{3BD99DA7-BD93-6366-344B-4F2C33A41684}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MainMenu.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/DestroyFinishedParticle.cs">
     <Files>
-      <File FileName="Assets/Scripts/Playercontrol.cs" Line="57" Column="13" />
+      <File FileName="Assets/Scripts/Playercontrol.cs" Line="29" Column="1" />
       <File FileName="Assets/Scripts/ScoreManager.cs" Line="13" Column="21" />
       <File FileName="Assets/Scripts/CoinPickup.cs" Line="17" Column="29" />
       <File FileName="Assets/Scripts/EnemyPatrol.cs" Line="45" Column="57" />
@@ -10,9 +10,10 @@
       <File FileName="Assets/Scripts/LevelManager.cs" Line="34" Column="5" />
       <File FileName="Assets/Scripts/KillPlayer.cs" Line="20" Column="10" />
       <File FileName="Assets/Scripts/PlayerShoot.cs" Line="15" Column="36" />
-      <File FileName="Assets/Scripts/Projectile.cs" Line="48" Column="35" />
+      <File FileName="Assets/Scripts/Projectile.cs" Line="48" Column="29" />
       <File FileName="Assets/Scripts/CameraFollow.cs" Line="23" Column="146" />
-      <File FileName="Assets/Scripts/MainMenu.cs" Line="4" Column="15" />
+      <File FileName="Assets/Scripts/MainMenu.cs" Line="3" Column="19" />
+      <File FileName="Assets/Scripts/DestroyFinishedParticle.cs" Line="30" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
