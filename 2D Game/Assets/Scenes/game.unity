@@ -375,6 +375,7 @@ GameObject:
   - component: {fileID: 897569187}
   - component: {fileID: 192975418}
   - component: {fileID: 192975414}
+  - component: {fileID: 192975415}
   m_Layer: 0
   m_Name: PC
   m_TagString: Untagged
@@ -413,6 +414,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FirePoint: {fileID: 570696295}
   Projectile: {fileID: 328083094}
+--- !u!95 &192975415
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 192975412}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 71f10fa28913e415fb80218c0dd8a3e5, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &192975418
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -514,11 +533,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4246310124864294, guid: a597760d9b321403784c19547a33b02b, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -35.711
+      value: -34.957
       objectReference: {fileID: 0}
     - target: {fileID: 4246310124864294, guid: a597760d9b321403784c19547a33b02b, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -1.517
+      value: -1.421
       objectReference: {fileID: 0}
     - target: {fileID: 4246310124864294, guid: a597760d9b321403784c19547a33b02b, type: 2}
       propertyPath: m_LocalPosition.z
@@ -6289,7 +6308,7 @@ Transform:
   m_PrefabInternal: {fileID: 213697876}
   m_GameObject: {fileID: 838549164}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -35.711, y: -1.517, z: 1.427}
+  m_LocalPosition: {x: -34.957, y: -1.421, z: 1.427}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -7387,7 +7406,7 @@ GameObject:
   m_Layer: 0
   m_Name: GroundCheck (1)
   m_TagString: Untagged
-  m_Icon: {fileID: 7422848464349959988, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -7417,7 +7436,7 @@ GameObject:
   m_Layer: 0
   m_Name: GroundCheck
   m_TagString: Untagged
-  m_Icon: {fileID: 7422848464349959988, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
