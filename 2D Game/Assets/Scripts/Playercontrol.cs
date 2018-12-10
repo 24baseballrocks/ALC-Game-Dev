@@ -66,10 +66,10 @@ public class Playercontrol : MonoBehaviour {
 
 
         if (GetComponent<Rigidbody2D>().velocity.x > 0)
-            transform.localScale = new Vector3(3.6f, 3.9f, 1.6f);
+            transform.localScale = new Vector3(1.6f, 1.7f, .7f);
 
         else if (GetComponent<Rigidbody2D>().velocity.x < 0)
-            transform.localScale = new Vector3(-3.6f, 3.9f, 1.6f);
+            transform.localScale = new Vector3(-1.6f, 1.7f, .7f);
 
 
     }
