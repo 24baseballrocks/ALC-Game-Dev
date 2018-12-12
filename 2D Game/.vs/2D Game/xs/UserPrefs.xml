@@ -2,7 +2,7 @@
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Playercontrol.cs">
     <Files>
-      <File FileName="Assets/Scripts/Playercontrol.cs" Line="29" Column="1" />
+      <File FileName="Assets/Scripts/Playercontrol.cs" Line="79" Column="2" />
       <File FileName="Assets/Scripts/ScoreManager.cs" Line="13" Column="21" />
       <File FileName="Assets/Scripts/CoinPickup.cs" Line="17" Column="29" />
       <File FileName="Assets/Scripts/EnemyPatrol.cs" Line="45" Column="57" />

@@ -19,10 +19,13 @@ public class Playercontrol : MonoBehaviour {
     private bool grounded;
     //Non-stick Player 
     private float moveVelocity;
+    public Animator animator;
 
 	// Use this for initialization
 	void Start () {
-		
+        //animation reset
+        animator.SetBool("isWalking",false);
+        animator.SetBool("isJumping", false);
 	}
 
      void FixedUpdate() {
@@ -37,8 +40,11 @@ public class Playercontrol : MonoBehaviour {
             Jump();
         }
         //coublejump code
-        if(grounded)
+        if (grounded)
+        {
             doubleJump = false;
+            animator.SetBool("isJumping", false);
+        }
 
         if(Input.GetKeyDown(KeyCode.Space) && !doubleJump && !grounded){
             Jump();
@@ -54,12 +60,24 @@ public class Playercontrol : MonoBehaviour {
         {
             //GetComponent<Rigidbody2D>().velocity = new Vector2(MoveSpeed, GetComponent<Rigidbody2D>().velocity.y);
             moveVelocity = MoveSpeed;
+            animator.SetBool("isWalking", true);
 
         }
+
+        else if(Input.GetKey (KeyCode.D)){
+            animator.SetBool("isWalking", false);
+        }
+
         if (Input.GetKey (KeyCode.A))
         {
              //GetComponent<Rigidbody2D>().velocity = new Vector2(-MoveSpeed, GetComponent<Rigidbody2D>().velocity.y); 
             moveVelocity = -MoveSpeed;
+            animator.SetBool("isWalking", true);
+        }
+
+        else if (Input.GetKey(KeyCode.A))
+        {
+            animator.SetBool("isWalking", false);
         }
 
         GetComponent<Rigidbody2D>().velocity = new Vector2(moveVelocity, GetComponent<Rigidbody2D>().velocity.y);
@@ -75,6 +93,6 @@ public class Playercontrol : MonoBehaviour {
     }
     public void Jump(){
         GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<Rigidbody2D>().velocity.x, JumpHeight);
+        animator.SetBool("isJumping", true);
     }
 }
-
