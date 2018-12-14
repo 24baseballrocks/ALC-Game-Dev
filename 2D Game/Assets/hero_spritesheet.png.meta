@@ -14,6 +14,7 @@ TextureImporter:
     21300018: Death 4
     21300020: Idle 1
     21300022: Jump[ 1
+    21300024: Shoot_1
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -324,13 +325,33 @@ TextureImporter:
         width: 67
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: 69fe81ed85374487db2dec5b0ef5cad2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot_1
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 194
+        width: 52
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 101f7da30b20e4931a904febbba03585
       vertices: []
       indices: 
       edges: []

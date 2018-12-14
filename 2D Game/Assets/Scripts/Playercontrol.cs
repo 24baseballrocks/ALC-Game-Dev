@@ -64,7 +64,7 @@ public class Playercontrol : MonoBehaviour {
 
         }
 
-        else if(Input.GetKey (KeyCode.D)){
+        else if(Input.GetKeyUp (KeyCode.D)){
             animator.SetBool("isWalking", false);
         }
 
@@ -75,7 +75,7 @@ public class Playercontrol : MonoBehaviour {
             animator.SetBool("isWalking", true);
         }
 
-        else if (Input.GetKey(KeyCode.A))
+        else if (Input.GetKeyUp(KeyCode.A))
         {
             animator.SetBool("isWalking", false);
         }
